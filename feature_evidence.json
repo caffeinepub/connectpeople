@@ -1,0 +1,114 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-rebrand-the-entire-app-from-connecthub-to-tribes-of-rudra-update-the-app-name-title-tag-navbar-branding-footer-copyright-and-any-other-visible-references-throughout-the-frontend-to-reflect-the-new-name",
+      "featureTitle": "Rebrand the entire app from 'ConnectHub' to 'Tribes Of Rudra'. Update the app name, title tag, NavBar branding, Footer copyright, and any other visible references throughout the frontend to reflect the new name.",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/NavBar.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-redesign-the-visual-theme-of-the-entire-app-to-reflect-a-deep-spiritual-hindu-aesthetic-inspired-by-lord-shiva-and-the-tribes-of-rudra-identity-use-a-rich-color-palette-of-deep-saffron-orange-ff6b00-tones-sacred-ash-grey-midnight-blue-indigo-and-gold-accents-typography-should-feel-reverent-and-bold-background-textures-and-decorative-motifs-should-evoke-sacred-geometry-rudraksha-or-om-symbolism-subtly-cards-should-feel-like-temple-stone-warm-grounded-and-textured-all-hover-and-transition-effects-should-feel-smooth-and-meditative",
+      "featureTitle": "Redesign the visual theme of the entire app to reflect a deep, spiritual Hindu aesthetic inspired by Lord Shiva and the Tribes Of Rudra identity. Use a rich color palette of deep saffron/orange (#FF6B00 tones), sacred ash grey, midnight blue/indigo, and gold accents. Typography should feel reverent and bold. Background textures and decorative motifs should evoke sacred geometry, rudraksha, or Om symbolism subtly. Cards should feel like temple stone — warm, grounded, and textured. All hover and transition effects should feel smooth and meditative.",
+      "files": [
+        "frontend/src/components/InterestTag.tsx",
+        "frontend/src/components/PostCard.tsx",
+        "frontend/src/components/ProfileCard.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-dedicated-tribes-of-rudra-landing-home-page-replacing-or-enhancing-the-current-feedpage-hero-that-includes-1-a-full-width-hero-banner-with-the-name-tribes-of-rudra-a-sanskrit-spiritual-tagline-e-g-har-har-mahadev-connect-grow-serve-and-a-hero-background-image-2-a-who-we-are-section-describing-the-community-as-a-global-spiritual-family-devoted-to-lord-shiva-and-hinduism-3-a-spiritual-journey-section-with-brief-cards-describing-the-pillars-of-the-community-devotion-sewa-knowledge-global-connection-4-a-good-cause-section-highlighting-how-members-can-contribute-to-spiritual-and-humanitarian-initiatives-5-a-call-to-action-to-join-the-community-or-log-in",
+      "featureTitle": "Create a dedicated 'Tribes Of Rudra' landing/home page (replacing or enhancing the current FeedPage hero) that includes: (1) A full-width hero banner with the name 'Tribes Of Rudra', a Sanskrit/spiritual tagline (e.g. 'Har Har Mahadev — Connect. Grow. Serve.'), and a hero background image; (2) A 'Who We Are' section describing the community as a global spiritual family devoted to Lord Shiva and Hinduism; (3) A 'Spiritual Journey' section with brief cards describing the pillars of the community (Devotion / Sewa / Knowledge / Global Connection); (4) A 'Good Cause' section highlighting how members can contribute to spiritual and humanitarian initiatives; (5) A call-to-action to join the community or log in.",
+      "files": [
+        "frontend/src/components/NavBar.tsx",
+        "frontend/src/pages/FeedPage.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-predefined-interest-tags-on-the-profile-setup-page-and-discover-people-page-to-include-hinduism-and-lord-shiva-themed-interests-such-as-shaivism-vedanta-yoga-meditation-bhakti-sewa-service-sanskrit-ayurveda-pilgrimage-mantra-chanting-sacred-texts-rudraksha-tantra-temple-arts-hinduism-remove-or-replace-any-generic-tags-that-don-t-fit-the-community-s-spiritual-focus",
+      "featureTitle": "Update the predefined interest tags on the Profile Setup page and Discover People page to include Hinduism and Lord Shiva themed interests such as: 'Shaivism', 'Vedanta', 'Yoga', 'Meditation', 'Bhakti', 'Sewa (Service)', 'Sanskrit', 'Ayurveda', 'Pilgrimage', 'Mantra & Chanting', 'Sacred Texts', 'Rudraksha', 'Tantra', 'Temple Arts', 'Hinduism'. Remove or replace any generic tags that don't fit the community's spiritual focus.",
+      "files": [
+        "frontend/src/components/ProfileSetupModal.tsx",
+        "frontend/src/pages/DiscoverPage.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-community-feed-page-hero-section-to-be-spiritually-themed-replace-any-generic-copy-with-a-devotional-welcome-message-referencing-lord-shiva-and-the-tribes-of-rudra-community-the-post-creation-prompt-text-should-encourage-sharing-spiritual-insights-prayers-or-seva-stories",
+      "featureTitle": "Update the Community Feed page hero section to be spiritually themed: replace any generic copy with a devotional welcome message referencing Lord Shiva and the Tribes Of Rudra community. The post creation prompt text should encourage sharing spiritual insights, prayers, or seva stories.",
+      "files": [
+        "frontend/src/components/CreatePostForm.tsx",
+        "frontend/src/pages/FeedPage.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

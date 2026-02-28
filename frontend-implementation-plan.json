@@ -1,0 +1,138 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Tribes Of Rudra — Shiva & Hinduism Spiritual Community Page",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "summary": "Rebrand the entire app from 'ConnectHub' to 'Tribes Of Rudra' across all frontend UI elements",
+      "acceptanceCriteria": [
+        "The browser tab title reads 'Tribes Of Rudra'",
+        "The NavBar logo/brand text displays 'Tribes Of Rudra'",
+        "The Footer copyright reads 'Tribes Of Rudra'",
+        "No visible 'ConnectHub' references remain in the UI"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the <title> tag from 'ConnectHub' to 'Tribes Of Rudra' and update the meta description to reflect the spiritual Hindu community focus"
+        },
+        {
+          "path": "frontend/src/components/NavBar.tsx",
+          "operation": "modify",
+          "description": "Replace all 'ConnectHub' text in the branding/logo area with 'Tribes Of Rudra'. Update the brand link text and any aria-labels or tooltips that reference the old name"
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace 'ConnectHub' in the copyright notice with 'Tribes Of Rudra'. Keep the year dynamic and caffeine.ai attribution unchanged"
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Redesign the visual theme to reflect a deep Hindu spiritual aesthetic inspired by Lord Shiva with saffron, ash grey, indigo, and gold color palette",
+      "acceptanceCriteria": [
+        "Primary color palette uses saffron/orange and gold tones with deep sacred grey or indigo backgrounds",
+        "Typography is bold, rounded, and conveys a spiritual tone",
+        "Card components have a warm, grounded aesthetic with subtle shadows",
+        "Hover and transition effects feel smooth throughout the app",
+        "The visual identity clearly communicates a Hindu spiritual community"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Replace the current OKLCH amber/terracotta color palette with a spiritual Hindu theme: deep saffron/orange (#FF6B00 tones) as primary, sacred ash grey for muted elements, midnight blue/indigo for backgrounds, and gold accents for highlights. Update all CSS custom properties for both light and dark modes to reflect these colors. Add subtle background textures or gradient overlays that evoke sacred geometry. Ensure card shadows feel warm and grounded"
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Update the extended Tailwind theme to align with the spiritual Hindu aesthetic. Map the saffron, ash grey, indigo, and gold palette to semantic color tokens (primary, secondary, accent, etc.). Adjust border-radius values to feel more rounded and organic. Update box-shadow presets to create warm, grounded card effects. Ensure transition and animation timings feel smooth and meditative"
+        },
+        {
+          "path": "frontend/src/components/PostCard.tsx",
+          "operation": "modify",
+          "description": "Apply the new spiritual theming to the PostCard component. Update background colors, borders, and shadows to reflect the warm, temple-stone aesthetic. Ensure hover effects are smooth and reverent. Typography should feel bold and spiritual"
+        },
+        {
+          "path": "frontend/src/components/ProfileCard.tsx",
+          "operation": "modify",
+          "description": "Apply the new spiritual theming to the ProfileCard component. Update card styling to use the saffron/gold/indigo palette with warm shadows. Ensure the card feels grounded and sacred, with smooth hover transitions"
+        },
+        {
+          "path": "frontend/src/components/InterestTag.tsx",
+          "operation": "modify",
+          "description": "Restyle the InterestTag component to match the spiritual theme. Replace the amber-themed styling with saffron/gold tones. Tags should feel like sacred emblems with rounded edges and a reverent appearance"
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Create a dedicated 'Tribes Of Rudra' landing/home page with hero banner, community sections, spiritual pillars, and call-to-action",
+      "acceptanceCriteria": [
+        "Hero section displays 'Tribes Of Rudra' title and spiritual tagline with a hero background image",
+        "'Who We Are' section is present and describes the Lord Shiva / Hinduism focus",
+        "Four pillar cards (Devotion, Sewa, Knowledge, Global Connection) are visible",
+        "'Good Cause' section is present with a brief description of community initiatives",
+        "A call-to-action button to join or log in is visible on the landing page"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/FeedPage.tsx",
+          "operation": "modify",
+          "description": "Replace or enhance the existing hero banner with a full-width 'Tribes Of Rudra' landing section. Include: (1) Hero banner with 'Tribes Of Rudra' title, Sanskrit tagline 'Har Har Mahadev — Connect. Grow. Serve.', and the generated hero background image at frontend/public/assets/generated/tribes-of-rudra-hero.dim_1920x800.png. (2) 'Who We Are' section describing the global spiritual family devoted to Lord Shiva and Hinduism. (3) 'Spiritual Journey' section with four pillar cards (Devotion, Sewa, Knowledge, Global Connection) displayed in a responsive grid. (4) 'Good Cause' section highlighting community initiatives. (5) Call-to-action button encouraging users to join or log in. Use the generated spiritual divider image (frontend/public/assets/generated/spiritual-divider.dim_1200x80.png) between sections. Ensure this landing content is visible above or integrated with the existing post feed"
+        },
+        {
+          "path": "frontend/src/components/NavBar.tsx",
+          "operation": "modify",
+          "description": "Update the NavBar to include the generated Tribes Of Rudra emblem logo (frontend/public/assets/generated/tribes-rudra-emblem.dim_256x256.png) alongside or replacing the text branding. Ensure the logo is sized appropriately and the NavBar reflects the spiritual aesthetic"
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Update predefined interest tags to Hinduism and Lord Shiva themed categories across Profile Setup and Discover People pages",
+      "acceptanceCriteria": [
+        "Profile Setup page shows spiritual/Hindu-themed interest tags",
+        "Discover People page filter tags reflect the same spiritual categories",
+        "At minimum 10 Hinduism/Shiva-themed tags are available",
+        "Generic or off-theme tags from the previous version are removed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ProfileSetupModal.tsx",
+          "operation": "modify",
+          "description": "Replace the current predefined interest tags with Hinduism and Lord Shiva themed options: 'Shaivism', 'Vedanta', 'Yoga', 'Meditation', 'Bhakti', 'Sewa (Service)', 'Sanskrit', 'Ayurveda', 'Pilgrimage', 'Mantra & Chanting', 'Sacred Texts', 'Rudraksha', 'Tantra', 'Temple Arts', 'Hinduism'. Remove any generic tags that don't fit the spiritual focus. Ensure the modal reflects the spiritual theming"
+        },
+        {
+          "path": "frontend/src/pages/DiscoverPage.tsx",
+          "operation": "modify",
+          "description": "Replace the current interest filter tags with the same Hinduism and Lord Shiva themed categories used in ProfileSetupModal. Ensure consistency between the profile setup and discovery filter tags. Update any instructional copy to reflect the spiritual community focus"
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Update Community Feed page hero section to include a devotional welcome message and spiritually-themed post creation prompt",
+      "acceptanceCriteria": [
+        "Feed page hero displays a devotional welcome message mentioning Lord Shiva or Har Har Mahadev",
+        "Post creation textarea placeholder encourages spiritual sharing (e.g. prayers, insights, seva stories)",
+        "Feed page visually aligns with the Tribes Of Rudra spiritual theme"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/FeedPage.tsx",
+          "operation": "modify",
+          "description": "Update the hero section to include a devotional welcome message that references Lord Shiva or 'Har Har Mahadev' and the Tribes Of Rudra community. Ensure this message feels warm and spiritually inviting. The message should appear prominently near the top of the feed page"
+        },
+        {
+          "path": "frontend/src/components/CreatePostForm.tsx",
+          "operation": "modify",
+          "description": "Update the textarea placeholder text to encourage spiritual sharing, such as 'Share your prayers, spiritual insights, or seva stories with the community...'. Ensure the form styling aligns with the Tribes Of Rudra spiritual theme"
+        }
+      ]
+    }
+  ]
+}

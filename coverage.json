@@ -1,0 +1,114 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-28T09:48:40.595Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 5,
+    "implemented": 5,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Rebrand the entire app from 'ConnectHub' to 'Tribes Of Rudra'. Update the app name, title tag, NavBar branding, Footer copyright, and any other visible references throughout the frontend to reflect the new name.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html",
+          "frontend/src/components/NavBar.tsx",
+          "frontend/src/components/Footer.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/index.html",
+          "frontend/src/components/NavBar.tsx",
+          "frontend/src/components/Footer.tsx"
+        ]
+      },
+      {
+        "id": "REQ-11",
+        "summary": "Redesign the visual theme of the entire app to reflect a deep, spiritual Hindu aesthetic inspired by Lord Shiva and the Tribes Of Rudra identity. Use a rich color palette of deep saffron/orange (#FF6B00 tones), sacred ash grey, midnight blue/indigo, and gold accents. Typography should feel reverent and bold. Background textures and decorative motifs should evoke sacred geometry, rudraksha, or Om symbolism subtly. Cards should feel like temple stone — warm, grounded, and textured. All hover and transition effects should feel smooth and meditative.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/index.css",
+          "frontend/tailwind.config.js",
+          "frontend/src/components/PostCard.tsx",
+          "frontend/src/components/ProfileCard.tsx",
+          "frontend/src/components/InterestTag.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/index.css",
+          "frontend/tailwind.config.js",
+          "frontend/src/components/PostCard.tsx",
+          "frontend/src/components/ProfileCard.tsx",
+          "frontend/src/components/InterestTag.tsx"
+        ]
+      },
+      {
+        "id": "REQ-12",
+        "summary": "Create a dedicated 'Tribes Of Rudra' landing/home page (replacing or enhancing the current FeedPage hero) that includes: (1) A full-width hero banner with the name 'Tribes Of Rudra', a Sanskrit/spiritual tagline (e.g. 'Har Har Mahadev — Connect. Grow. Serve.'), and a hero background image; (2) A 'Who We Are' section describing the community as a global spiritual family devoted to Lord Shiva and Hinduism; (3) A 'Spiritual Journey' section with brief cards describing the pillars of the community (Devotion / Sewa / Knowledge / Global Connection); (4) A 'Good Cause' section highlighting how members can contribute to spiritual and humanitarian initiatives; (5) A call-to-action to join the community or log in.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/FeedPage.tsx",
+          "frontend/src/components/NavBar.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/FeedPage.tsx",
+          "frontend/src/components/NavBar.tsx"
+        ]
+      },
+      {
+        "id": "REQ-13",
+        "summary": "Update the predefined interest tags on the Profile Setup page and Discover People page to include Hinduism and Lord Shiva themed interests such as: 'Shaivism', 'Vedanta', 'Yoga', 'Meditation', 'Bhakti', 'Sewa (Service)', 'Sanskrit', 'Ayurveda', 'Pilgrimage', 'Mantra & Chanting', 'Sacred Texts', 'Rudraksha', 'Tantra', 'Temple Arts', 'Hinduism'. Remove or replace any generic tags that don't fit the community's spiritual focus.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/ProfileSetupModal.tsx",
+          "frontend/src/pages/DiscoverPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/ProfileSetupModal.tsx",
+          "frontend/src/pages/DiscoverPage.tsx"
+        ]
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Update the Community Feed page hero section to be spiritually themed: replace any generic copy with a devotional welcome message referencing Lord Shiva and the Tribes Of Rudra community. The post creation prompt text should encourage sharing spiritual insights, prayers, or seva stories.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/FeedPage.tsx",
+          "frontend/src/components/CreatePostForm.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/FeedPage.tsx",
+          "frontend/src/components/CreatePostForm.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/public/assets/generated/spiritual-divider.dim_1200x80.png",
+    "frontend/public/assets/generated/tribes-of-rudra-hero.dim_1920x800.png",
+    "frontend/public/assets/generated/tribes-rudra-emblem.dim_256x256.png",
+    "frontend/src/components/CreatePostForm.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/InterestTag.tsx",
+    "frontend/src/components/NavBar.tsx",
+    "frontend/src/components/PostCard.tsx",
+    "frontend/src/components/ProfileCard.tsx",
+    "frontend/src/components/ProfileSetupModal.tsx",
+    "frontend/src/index.css",
+    "frontend/src/pages/DiscoverPage.tsx",
+    "frontend/src/pages/FeedPage.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

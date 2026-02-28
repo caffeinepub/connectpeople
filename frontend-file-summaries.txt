@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main app entry with TanStack Router setup, defining routes for feed, discover, and profile pages, with a root layout that includes NavBar, Footer, and ProfileSetupModal for new users.",
+  "frontend/src/hooks/useQueries.ts": "All React Query hooks for backend interactions — profile CRUD, post creation/listing, reply adding, and interest-based discovery, with proper cache invalidation.",
+  "frontend/src/components/NavBar.tsx": "Sticky navigation bar rebranded to \"Tribes Of Rudra\" with the emblem logo, Sanskrit tagline, spiritual nav labels, and \"Join the Tribe\" CTA button.",
+  "frontend/src/components/Footer.tsx": "Footer rebranded to \"Tribes Of Rudra\" with the emblem, Sanskrit Om Namah Shivaya text, spiritual tagline, and the caffeine.ai attribution with the trishul emoji.",
+  "frontend/src/components/ProfileSetupModal.tsx": "First-time user onboarding modal rebranded for Tribes Of Rudra with 15 Hinduism/Shiva-themed interest tags, spiritual bio prompt, and \"Join the Tribe\" submit button.",
+  "frontend/src/components/InterestTag.tsx": "Reusable interest pill component restyled with saffron/gold accent tones, smooth scale-up on selection, and reverent hover effects.",
+  "frontend/src/components/ProfileCard.tsx": "Profile card with Tribes Of Rudra spiritual theming, Cinzel display font for names, trishul badge on avatar, and warm saffron hover effects.",
+  "frontend/src/components/CreatePostForm.tsx": "Post creation form with a spiritual placeholder encouraging prayers, insights, and seva stories, and a \"Share\" button with devotional toast feedback.",
+  "frontend/src/components/ReplyForm.tsx": "Compact reply form accepting a postId; calls addReply mutation with inline submit button and toast notifications.",
+  "frontend/src/components/PostCard.tsx": "Post card with spiritual theming including a trishul icon, Cinzel author names, and warm saffron accent borders for the reply section.",
+  "frontend/src/pages/FeedPage.tsx": "Full-page Tribes Of Rudra landing experience with hero banner, emblem, Sanskrit tagline, \"Who We Are\" section, four spiritual pillar cards (Devotion/Sewa/Knowledge/Global Connection), Good Cause section, and the community feed below.",
+  "frontend/src/pages/ProfilePage.tsx": "Public profile view page showing user avatar, display name, bio, interests, join date, and a list of their posts with timestamps.",
+  "frontend/src/pages/DiscoverPage.tsx": "Discover page rebranded for spiritual community discovery with 15 Hinduism/Shiva-themed filter tags, Cinzel headings, and devotee-focused copy throughout.",
+  "frontend/src/index.css": "Global styles with a deep saffron/gold/indigo OKLCH color system for the Tribes Of Rudra spiritual theme, Cinzel display font for headings, and sacred shadow utilities for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind config extended with Cinzel display font, saffron/gold/indigo spiritual color tokens, sacred shadow presets, and a float animation for the hero emblem.",
+  "frontend/index.html": "HTML entry point with updated title \"Tribes Of Rudra\" and a spiritual meta description for the Hindu community platform."
+}

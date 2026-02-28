@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A spiritually-focused community web app called 'Tribes Of Rudra' dedicated to Hinduism and Lord Shiva, where people from around the globe can connect, share, and develop their spiritual journey and work for good causes.",
+  "architectural_notes": [
+    "Web app targeting browser-based access on mobile, tablet, and desktop",
+    "No real-time WebSocket chat; interactions via posts, profiles, and comments",
+    "App has a spiritual/religious focus on Hinduism and Lord Shiva — branding, imagery, and tone should reflect devotion and community seva (service)"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Full-width hero banner with Lord Shiva silhouette in meditative pose, sacred Om symbol, radiant saffron and deep indigo sky with golden light rays, smoke and sacred ash aesthetic (tribes-of-rudra-hero.dim_1920x800.png)\n- Decorative horizontal divider strip with subtle rudraksha bead pattern and sacred geometry on dark saffron-gold gradient background (spiritual-divider.dim_1200x80.png)\n- Small circular emblem/logo featuring a stylized Trishul (trident) with Om symbol in gold on deep saffron background (tribes-rudra-emblem.dim_256x256.png)",
+  "existing_features": [
+    {
+      "id": "feature-build-a-profile-setup-page-where-a-new-user-can-enter-their-display-name-write-a-short-bio-and-select-interests-from-a-predefined-tag-list-on-submit-the-profile-is-saved-to-the-backend",
+      "title": "Build a Profile Setup page where a new user can enter their display name, write a short bio, and select interests from a predefined tag list. On submit, the profile is saved to the backend.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-public-profile-view-page-that-displays-a-user-s-display-name-bio-interests-as-styled-tags-and-their-posts-the-page-is-accessible-by-profile-id-via-a-url-route",
+      "title": "Build a public Profile View page that displays a user's display name, bio, interests as styled tags, and their posts. The page is accessible by profile ID via a URL route.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-community-feed-page-as-the-main-landing-page-it-displays-all-posts-in-reverse-chronological-order-each-post-card-shows-the-author-s-display-name-linked-to-their-profile-post-body-timestamp-reply-count-and-an-expandable-reply-section-where-users-can-read-and-add-replies",
+      "title": "Build a Community Feed page as the main landing page. It displays all posts in reverse-chronological order. Each post card shows the author's display name (linked to their profile), post body, timestamp, reply count, and an expandable reply section where users can read and add replies.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-discover-people-page-that-shows-profiles-with-shared-interests-users-can-filter-by-selecting-interest-tags-the-page-fetches-and-displays-matching-profiles-as-cards-with-display-name-bio-snippet-and-interests",
+      "title": "Build a Discover People page that shows profiles with shared interests. Users can filter by selecting interest tags; the page fetches and displays matching profiles as cards with display name, bio snippet, and interests.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-navigation-bar-present-on-all-pages-with-links-to-community-feed-discover-people-and-the-current-user-s-profile-use-internet-identity-for-authentication-show-a-login-button-when-the-user-is-not-authenticated",
+      "title": "Implement a navigation bar present on all pages with links to: Community Feed, Discover People, and the current user's Profile. Use Internet Identity for authentication; show a login button when the user is not authenticated.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-warm-vibrant-visual-theme-across-the-entire-app-using-earthy-amber-and-terracotta-tones-with-clean-off-white-backgrounds-bold-rounded-typography-card-based-layouts-with-subtle-shadows-and-smooth-hover-transition-effects-the-design-should-feel-welcoming-and-community-oriented",
+      "title": "Apply a warm, vibrant visual theme across the entire app — using earthy amber and terracotta tones with clean off-white backgrounds, bold rounded typography, card-based layouts with subtle shadows, and smooth hover/transition effects. The design should feel welcoming and community-oriented.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-rebrand-the-entire-app-from-connecthub-to-tribes-of-rudra-update-the-app-name-title-tag-navbar-branding-footer-copyright-and-any-other-visible-references-throughout-the-frontend-to-reflect-the-new-name",
+      "title": "Rebrand the entire app from 'ConnectHub' to 'Tribes Of Rudra'. Update the app name, title tag, NavBar branding, Footer copyright, and any other visible references throughout the frontend to reflect the new name.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-visual-theme-of-the-entire-app-to-reflect-a-deep-spiritual-hindu-aesthetic-inspired-by-lord-shiva-and-the-tribes-of-rudra-identity-use-a-rich-color-palette-of-deep-saffron-orange-ff6b00-tones-sacred-ash-grey-midnight-blue-indigo-and-gold-accents-typography-should-feel-reverent-and-bold-background-textures-and-decorative-motifs-should-evoke-sacred-geometry-rudraksha-or-om-symbolism-subtly-cards-should-feel-like-temple-stone-warm-grounded-and-textured-all-hover-and-transition-effects-should-feel-smooth-and-meditative",
+      "title": "Redesign the visual theme of the entire app to reflect a deep, spiritual Hindu aesthetic inspired by Lord Shiva and the Tribes Of Rudra identity. Use a rich color palette of deep saffron/orange (#FF6B00 tones), sacred ash grey, midnight blue/indigo, and gold accents. Typography should feel reverent and bold. Background textures and decorative motifs should evoke sacred geometry, rudraksha, or Om symbolism subtly. Cards should feel like temple stone — warm, grounded, and textured. All hover and transition effects should feel smooth and meditative.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-dedicated-tribes-of-rudra-landing-home-page-replacing-or-enhancing-the-current-feedpage-hero-that-includes-1-a-full-width-hero-banner-with-the-name-tribes-of-rudra-a-sanskrit-spiritual-tagline-e-g-har-har-mahadev-connect-grow-serve-and-a-hero-background-image-2-a-who-we-are-section-describing-the-community-as-a-global-spiritual-family-devoted-to-lord-shiva-and-hinduism-3-a-spiritual-journey-section-with-brief-cards-describing-the-pillars-of-the-community-devotion-sewa-knowledge-global-connection-4-a-good-cause-section-highlighting-how-members-can-contribute-to-spiritual-and-humanitarian-initiatives-5-a-call-to-action-to-join-the-community-or-log-in",
+      "title": "Create a dedicated 'Tribes Of Rudra' landing/home page (replacing or enhancing the current FeedPage hero) that includes: (1) A full-width hero banner with the name 'Tribes Of Rudra', a Sanskrit/spiritual tagline (e.g. 'Har Har Mahadev — Connect. Grow. Serve.'), and a hero background image; (2) A 'Who We Are' section describing the community as a global spiritual family devoted to Lord Shiva and Hinduism; (3) A 'Spiritual Journey' section with brief cards describing the pillars of the community (Devotion / Sewa / Knowledge / Global Connection); (4) A 'Good Cause' section highlighting how members can contribute to spiritual and humanitarian initiatives; (5) A call-to-action to join the community or log in.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-predefined-interest-tags-on-the-profile-setup-page-and-discover-people-page-to-include-hinduism-and-lord-shiva-themed-interests-such-as-shaivism-vedanta-yoga-meditation-bhakti-sewa-service-sanskrit-ayurveda-pilgrimage-mantra-chanting-sacred-texts-rudraksha-tantra-temple-arts-hinduism-remove-or-replace-any-generic-tags-that-don-t-fit-the-community-s-spiritual-focus",
+      "title": "Update the predefined interest tags on the Profile Setup page and Discover People page to include Hinduism and Lord Shiva themed interests such as: 'Shaivism', 'Vedanta', 'Yoga', 'Meditation', 'Bhakti', 'Sewa (Service)', 'Sanskrit', 'Ayurveda', 'Pilgrimage', 'Mantra & Chanting', 'Sacred Texts', 'Rudraksha', 'Tantra', 'Temple Arts', 'Hinduism'. Remove or replace any generic tags that don't fit the community's spiritual focus.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-community-feed-page-hero-section-to-be-spiritually-themed-replace-any-generic-copy-with-a-devotional-welcome-message-referencing-lord-shiva-and-the-tribes-of-rudra-community-the-post-creation-prompt-text-should-encourage-sharing-spiritual-insights-prayers-or-seva-stories",
+      "title": "Update the Community Feed page hero section to be spiritually themed: replace any generic copy with a devotional welcome message referencing Lord Shiva and the Tribes Of Rudra community. The post creation prompt text should encourage sharing spiritual insights, prayers, or seva stories.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "User profiles so people can create and view each other's profiles",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Community board or feed where users can post messages and interact",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Networking/matchmaking feature to connect people with shared interests",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Create a backend data model and API for user profiles, including fields for display name, bio, interests (list of tags), and a join date. Support creating, reading, and updating profiles.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Create a backend data model and API for community posts. Each post has an author profile ID, a text body, a timestamp, and a list of replies. Support creating posts, listing all posts (newest first), and adding replies to a post.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Create a backend API for interest-based people discovery. Given a list of interests, return a list of profiles that share at least one matching interest, excluding the requesting user.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Create a dedicated 'Tribes Of Rudra' page/section focused on Hinduism and Lord Shiva, with spiritual content, community connection features, and a 'good cause' section for global devotees.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "ConnectPeople",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
